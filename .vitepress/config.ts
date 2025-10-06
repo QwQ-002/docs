@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: 'docs',
+  base: '/docs/',
 
   title: 'QwQNT',
   description: 'QwQNT 社区驱动文档',
