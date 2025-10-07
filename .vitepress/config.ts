@@ -30,7 +30,9 @@ export default defineConfig({
       {
         text: '开发指南',
         link: '/development/',
-        items: [],
+        items: [
+          { text: '开发规范', link: '/development/development-standards' },
+        ],
       },
     ],
 
