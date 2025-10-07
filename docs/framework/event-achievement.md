@@ -4,7 +4,7 @@
 
 ## 第一次活动
 
-遗留 Github 仓库，现已清空。
+遗留 Github 仓库，曾被清空，现已恢复。
 
 [点击前往](https://github.com/TheLostQwQ)
 
