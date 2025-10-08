@@ -24,4 +24,4 @@ QwQNT 框架即用即插。
 
 如果你想知道如何反馈问题，请见[反馈问题](/framework/feedback)。
 
-如果你想了解如何在 QwQNT 框架内使用 LiteLoaderQQNT 插件，请见[LiteLoaderQQNT 兼容](/framework/adapt-liteloaderqqnt)。
+如果你想了解如何在 QwQNT 框架内使用 LiteLoaderQQNT 插件，请见 [LiteLoaderQQNT 兼容](/framework/adapt-liteloaderqqnt)。
