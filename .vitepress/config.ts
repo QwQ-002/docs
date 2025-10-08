@@ -37,7 +37,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/QwQ-002/' },
+      { icon: 'github', link: 'https://github.com/qwqnt-community/' },
     ],
   },
 });
