@@ -62,7 +62,7 @@ $ pnpm add github:qwqnt-community/types -D
 
 :::
 
-然后在修改两个 tsconfig.*.json 文件。
+然后再修改两个 tsconfig.*.json 文件。
 
 ::: code-group
 
