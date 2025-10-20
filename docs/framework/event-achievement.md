@@ -24,9 +24,7 @@
 
 > The password is password.
 
-点击下方链接下载文件以回顾活动。
-
-[bin](/bin4)
+原文件过大，请下载所有压缩分卷：[bin4.zip](/bin4.zip)、[bin4.z01](/bin4.z01)。
 
 ## 第五次活动 - puzzle
 
