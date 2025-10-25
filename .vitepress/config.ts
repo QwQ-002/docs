@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress';
 
+process.env.VITE_EXTRA_EXTENSIONS = 'z01';
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: 'docs',
