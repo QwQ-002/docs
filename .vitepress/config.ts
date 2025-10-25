@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite';
 
 process.env.VITE_EXTRA_EXTENSIONS = 'z01';
 
@@ -7,6 +8,7 @@ export default defineConfig({
   srcDir: 'docs',
   base: '/docs/',
 
+  lang: 'zh-CN',
   title: 'QwQNT',
   description: 'QwQNT 社区驱动文档',
   themeConfig: {
@@ -41,6 +43,15 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/qwqnt-community/' },
+    ],
+  },
+
+  vite: {
+    plugins: [
+      GitChangelog({
+        repoURL: 'https://github.com/qwqnt-community/docs/',
+      }),
+      GitChangelogMarkdownSection(),
     ],
   },
 });
