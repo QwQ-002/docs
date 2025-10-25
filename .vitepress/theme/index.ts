@@ -2,6 +2,7 @@ import type { Theme } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 import { InjectionKey, NolebaseGitChangelogPlugin } from '@nolebase/vitepress-plugin-git-changelog/client';
 import '@nolebase/vitepress-plugin-git-changelog/client/style.css';
+import 'virtual:group-icons.css';
 
 export default {
   extends: DefaultTheme,

@@ -16,6 +16,7 @@
   "devDependencies": {
     "@nolebase/vitepress-plugin-git-changelog": "^2.18.2",
     "@types/node": "^24.9.1",
-    "vitepress": "2.0.0-alpha.12"
+    "vitepress": "2.0.0-alpha.12",
+    "vitepress-plugin-group-icons": "^1.6.5"
   }
 }

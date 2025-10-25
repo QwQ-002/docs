@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress';
 import { GitChangelog, GitChangelogMarkdownSection } from '@nolebase/vitepress-plugin-git-changelog/vite';
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons';
 
 process.env.VITE_EXTRA_EXTENSIONS = 'z01';
 
@@ -46,8 +47,15 @@ export default defineConfig({
     ],
   },
 
+  markdown: {
+    config(md){
+      md.use(groupIconMdPlugin);
+    },
+  },
+
   vite: {
     plugins: [
+      groupIconVitePlugin(),
       GitChangelog({
         repoURL: 'https://github.com/qwqnt-community/docs/',
       }),
