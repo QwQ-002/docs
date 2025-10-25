@@ -53,11 +53,11 @@ QwQNT 框架并未提供官方实现的插件模板。
 ::: code-group
 
 ```sh [npm]
-$ npm install github:qwqnt-community/types --save-dev
+npm install github:qwqnt-community/types --save-dev
 ```
 
 ```sh [pnpm]
-$ pnpm add github:qwqnt-community/types -D
+pnpm add github:qwqnt-community/types -D
 ```
 
 :::
