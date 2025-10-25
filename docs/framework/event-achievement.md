@@ -4,11 +4,9 @@
 
 ## 第一次活动 - TheLostQwQ
 
-遗留 Github 仓库，曾被清空，现已恢复。
+请前往 Github 仓库开始寻找最终答案的第一步吧！
 
 [点击前往](https://github.com/TheLostQwQ)
-
-反正就是粥批本性大爆发！
 
 ## 第二次活动 - CCB
 
