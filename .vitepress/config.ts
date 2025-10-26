@@ -58,7 +58,7 @@ export default defineConfig({
     plugins: [
       groupIconVitePlugin(),
       GitChangelog({
-        repoURL: 'https://github.com/qwqnt-community/docs/',
+        repoURL: 'https://github.com/qwqnt-community/docs',
       }),
       GitChangelogMarkdownSection(),
     ],
