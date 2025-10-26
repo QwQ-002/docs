@@ -8,6 +8,7 @@ process.env.VITE_EXTRA_EXTENSIONS = 'z01';
 export default defineConfig({
   srcDir: 'docs',
   base: '/docs/',
+  cleanUrls: true,
 
   lang: 'zh-CN',
   title: 'QwQNT',
